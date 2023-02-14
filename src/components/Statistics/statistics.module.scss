@@ -1,0 +1,15 @@
+.box {
+  display: flex;
+  li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.list-name {
+  width: 150px;
+  margin-left: auto;
+  text-align: left;
+}
+.list-data {
+  width: 100px;
+  margin-right: auto;
+}
